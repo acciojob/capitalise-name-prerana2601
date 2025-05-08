@@ -1,35 +1,34 @@
-/*  your css code here. If applicable */
-/* Basic styling for the input field */
+/* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
+
+/* Container styling */
 .container {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-input {
-    padding: 10px;
-    font-size: 16px;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
+
+/* Input field styling */
+input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-input:focus {
-    border-color: #007BFF;
-}
-label {
-    font-size: 18px;
-    font-weight: bold;
+
+/* Header styling */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
 }
